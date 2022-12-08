@@ -1,0 +1,2 @@
+# gitSubModuleChild
+Experimenting GitSubModule feature
