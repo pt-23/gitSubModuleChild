@@ -1,6 +1,6 @@
 import Entity  from "./entity"
 
-enum Currency {
+export enum Currency {
     CAD = "CAD",
     USD = "USD",
     BTC = "BTC"
@@ -22,10 +22,10 @@ interface Payment {
 }
 
 interface Item extends Entity {
-    Name: string,
-    ItemCategory: string,
-    Price: number,
-    Unit: string,
+    name: string,
+    itemCategory: string,
+    price: number,
+    unit: number,
 }
 
 export interface GetOrdersResponse {
